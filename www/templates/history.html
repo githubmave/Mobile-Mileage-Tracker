@@ -1,0 +1,123 @@
+<div class="bar bar-header bar-dark">
+          <!-- <button class="button icon ion-navicon"></button> -->
+
+           <button class="button button-icon" ng-click="toggleOnline()">
+
+            <i class="icon" ng-class="{'ion-connection-bars' : online, 'ion-alert-circled' : !online}"></i>
+            
+           </button>
+            <h1 class="title"><i class="icon ion-android-book"></i>        History</h1>
+          <!-- <button class="button">Edit</button> -->
+</div>
+
+<ion-view title="'Create a trip'" >
+  <ion-content has-header="true" has-tabs="true" padding="true">
+    <form>
+      <div class="list">
+      
+      
+      </div>
+ <!-- <a  ng-repeat='trip in tripList' href="#/history/{{}}"> -->
+ <!-- <a href="#/history/{{tripList.indexOf(trip)}}" ng-repeat='trip in tripList'> -->
+<!-- <ion-list  show-delete="shouldShowDelete"> -->
+<ion-list>
+
+           <!-- <div class="row" ng-repeat='trip in tripList'> -->
+                <ion-item class="row" ng-repeat='trip in tripList'>
+                <!-- <ion-item  ng-repeat='trip in tripList'> -->
+
+                  <!-- <ion-item class="col col-75"> -->
+                   <!-- <ion-item> -->
+                         <button  class="button" type="button" ng-click='setActive(trip)'><i class="icon ion-more"></i></button> 
+                        <!-- <a href="#/history/{{tripList.indexOf(trip)}}">  -->
+
+                                 {{trip.id}}th   {{trip.startPoint}} <i class="icon ion-arrow-right-c"></i> {{trip.endPoint}}
+
+                        <!-- </a>  -->
+
+                         <ion-item class="row" ng-show='trip.onshow'>
+                            <div class="col col-45" ><i class="icon ion-android-location"></i>{{trip.unitPrice|currency}}/KM</div>
+
+
+                             <div class="col" ><i class="icon ion-ios7-speedometer"></i>{{trip.endMeter-trip.startMeter}} KM</div>
+                             <div class="col" ><i class="icon ion-ios7-cart"></i> {{(trip.endMeter-trip.startMeter)*trip.unitPrice|currency}} </div>
+
+                        </ion-item>
+                      
+                   <!-- </ion-item> -->
+                   <i class="icon ion-ios7-arrow-left"></i>
+
+
+                   <!-- <ion-item class="col"> -->
+
+                            <ion-option-button class="button-energized" ng-click='editTripStart(trip)'>
+                                    <i class="icon ion-edit"></i>
+                            </ion-option-button>
+
+                             <ion-option-button class="button-primary" ng-click='editTripEnd(trip)'>
+                                    <i class="icon ion-edit"></i>
+                            </ion-option-button>
+
+                     <!-- </ion-item> -->
+
+                   <!-- <ion-item class="col"> -->
+
+                            <ion-option-button class="button-assertive" ng-click='deleteTrip(trip)'>
+                                    <i class="icon ion-ios7-trash"></i>
+                            </ion-option-button>
+
+                           <!--   <ion-option-button class="button-dark" ng-click='setActive(trip)'>
+                                    <i class="icon ion-more"></i>
+                            </ion-option-button> -->
+                   <!-- </ion-item> -->
+
+               <!--  <ion-item class="col">
+                       <button  class="button" type="button" ng-click='editTrip(trip)'>
+                       <i class="icon ion-edit"></i></button>
+                            
+                </ion-item>
+
+                <ion-item class="col"> 
+                       <button  class="button" type="submit" ng-click='deleteTrip(trip)'>
+                           <i class="icon ion-ios7-trash"></i>
+                       </button>
+                </ion-item> -->
+
+
+        </ion-item>
+           <!-- </div> -->
+
+           
+  </ion-list>
+  <!-- </a> -->
+ <!--  <a   href="#/history/2">
+    test router
+  </a> -->
+       
+    </form>
+  </ion-content>
+</ion-view>
+
+<!-- <div class="bar bar-footer "> -->
+  <div class="tabs-striped tabs-footer tabs-background-dark tabs-light">
+         <!--  <button class="button icon ion-navicon"></button>
+          <h1 class="title">Header Buttons</h1>
+          <button class="button">Edit</button> -->
+           <div class="tabs tabs-icon-left">
+          <a href="#/startPoint" class="tab-item">
+            <i class="icon ion-home"></i>
+            Home
+          </a>
+          <a href="#/genreport" class="tab-item">
+            <i class="icon ion-ios7-compose"></i>
+            Report
+          </a>
+          <a href="#/setCar" class="tab-item">
+            <i class="icon ion-gear-a"></i>
+            Settings
+          </a>
+      </div>
+
+
+
+</div>

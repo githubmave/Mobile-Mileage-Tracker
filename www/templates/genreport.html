@@ -1,0 +1,41 @@
+<ion-view title="Monthly Report" >
+  <ion-content has-header="true" has-tabs="true" padding="true">
+    <form ng-submit="">
+      <div class="list">
+      
+        <label class="item item-input item-stacked-label">
+          <span class="input-label"></span>
+          <input type="text" placeholder="Visiting clients" >
+
+        </label>
+        <ul>
+          <li ng-repeat='trip in $storage.tripList'>
+
+          </li>
+          <li>
+          </li>
+
+        </ul>
+
+    
+       
+      </div>
+
+        <div class="tabs tabs-icon-left">
+          <a href="#/startPoint" class="tab-item">
+            <i class="icon ion-home"></i>
+            Home
+          </a>
+          <a href="#/history" class="tab-item">
+            <i class="icon ion-star"></i>
+            History
+          </a>
+          <a href="#/setCar" class="tab-item">
+            <i class="icon ion-gear-a"></i>
+            Settings
+          </a>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
+

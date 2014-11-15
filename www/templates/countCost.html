@@ -1,0 +1,147 @@
+<div class="bar bar-header bar-dark">
+          <!-- <button class="button icon ion-navicon"></button> -->
+          <h1 class="title"><i class="icon ion-model-s"></i>             Mileage Mate</h1>
+          <!-- <button class="button">Edit</button> -->
+</div>
+
+<ion-view title="Create a trip" >
+  <ion-content has-header="true" has-tabs="true" padding="true">
+    <form name="myForm">
+      <div class="list">
+
+       <!--  <label class="item item-input item-stacked-label">
+          <span class="input-label"> <i class="icon ion-ios7-calendar-outline"></i>  Date</span> -->
+
+
+          <!-- <input type="number" placeholder="Visiting clients" ng-model="distance"> -->
+          <!--  <input type="dateTimeLocal"
+       ng-model=""
+       [name=""]
+       [min=""]
+       [max=""]
+       [required=""]
+       [ng-required=""]
+       [ng-change=""]> -->
+
+           <!-- <input type="datetime-local" id="exampleInput" name="input" ng-model="value"
+      placeholder="yyyy-MM-ddTHH:mm:ss" min="2001-01-01T00:00:00" max="2013-12-31T00:00:00" required />
+
+       <span class="error" ng-show="myForm.input.$error.required">
+      Required!</span>
+  <span class="error" ng-show="myForm.input.$error.datetimelocal">
+      Not a valid date!</span>
+
+       <tt>value = {{value | date: "yyyy-MM-ddTHH:mm:ss"}}</tt><br/> -->
+ <!--  <tt>myForm.input.$valid = {{myForm.input.$valid}}</tt><br/>
+  <tt>myForm.input.$error = {{myForm.input.$error}}</tt><br/>
+  <tt>myForm.$valid = {{myForm.$valid}}</tt><br/>
+  <tt>myForm.$error.required = {{!!myForm.$error.required}}</tt><br/>
+ -->
+
+
+
+         
+                 <!-- </label>  -->
+
+
+      <label class="item item-input">
+  <span class="input-label">Date</span>
+  <input type="date">
+     </label>
+      
+       
+
+
+        <label class="item item-input item-stacked-label">
+          <span class="input-label"> <i class="icon ion-ios7-speedometer"></i>  Distance</span>
+
+
+          <input type="number" placeholder="Visiting clients" ng-model="distance">
+         
+                 </label>
+
+          <!-- <input type="hidden" ng-model='newTrip.unitPrice'>   -->
+
+         <!--   <ul>
+             <li  ng-repeat='trip in testList'> {{trip.id}} {{trip.startPoint}} {{trip.endPoint}}</li>
+           </ul>    -->
+
+              
+                                                {{newTrip.id}}
+   {{newTrip.startPoint}}
+{{newTrip.endPoint}}
+              
+
+         <label class="item item-input item-stacked-label">
+          <span class="input-label"> <i class="icon ion-ios7-cart"></i>  Petrol Fee</span>
+          <input type="text" placeholder="Visiting clients" ng-model="petrolFee"  pattern="\d+(\.\d{2})?">
+        </label>
+        <a  href="#/history">
+          <div class="button-bar">
+
+        
+
+                    <button ng-model='button' ng-disabled='notDone' class="button button-block button-dark" type="submit" ng-click='saveDbTrip()'>
+                    <i class="icon ion-android-folder"></i>   Save           </button>
+
+
+
+              <!--   <a  href="#/countCost">
+                    <button class="button button-block button-dark" type="submit" >
+                  <i class="icon ion-arrow-right-a"></i></button>
+
+                </a> -->
+           </div>
+       </a>
+      <!--   <div>
+         
+          <button ng-model='button' ng-disabled='notDone' class="button button-block button-dark" type="button" ng-click='saveNewTrip()' >
+          Save the trip   </button> 
+
+    
+        </div> -->
+        <li>test Change:{{testDbChange}}</li>
+
+       
+      </div>
+      <!--  <div class="item item-button-rieght">
+                    Save
+                    <button class="button button-dark" ng-model='button' ng-disabled='notDone' ng-click='saveNewTrip()'>
+                      <i class="icon ion-android-folder"></i>
+                    </button>
+
+            </div> -->
+       
+
+    </form>
+
+
+  </ion-content>
+</ion-view>
+
+ <!-- <div class="bar bar-footer"> -->
+
+   <div class="tabs-striped tabs-footer tabs-background-dark tabs-light">
+
+         <!--  <button class="button icon ion-navicon"></button>
+          <h1 class="title">Header Buttons</h1>
+          <button class="button">Edit</button> -->
+          <div class="tabs tabs-icon-left">
+          <a href="#/endPoint" class="tab-item">
+            <i class="icon ion-reply"></i>
+            Back
+          </a>
+          <a href="#/history" class="tab-item">
+            <i class="icon ion-star"></i>
+            History
+          </a>
+          <a href="#/setCar" class="tab-item">
+            <i class="icon ion-gear-a"></i>
+            Settings
+          </a>
+      </div>
+
+
+
+</div>
+

@@ -1,0 +1,89 @@
+<div class="bar bar-header bar-dark">
+          <button class="button icon ion-navicon"></button>
+          <h1 class="title">History Details</h1>
+          <button class="button">Edit</button>
+</div>
+
+
+<ion-view title="'Create a trip'" >
+  <ion-content has-header="true" has-tabs="true" padding="true">
+    <form ng-submit="">
+      <div class="list">
+      
+        <label class="item item-input item-stacked-label">
+          <span class="input-label"></span>
+          <input type="text" placeholder="Visiting clients" >
+
+        </label>
+        {{tripId}}
+       <!--  <div>
+              <ul ng-repeat='trip in tripList'>
+                <li >
+                  {{trip.id}}   {{trip.startPoint}}   {{trip.endPoint}} 
+
+                  <button  type="button" ng-click='saveOldTrip(trip)' >
+                     <i class="icon ion-android-folder"></i></button>
+
+                      <button  type="submit" ng-click='deleteTrip(trip.id)'>
+                         <i class="icon ion-ios7-trash"></i></button>
+
+                </li>
+              </ul>
+        </div> -->
+             <!-- <div> 
+                 <button class="button button-block button-positive" type="submit" ng-click='setId()'>
+                  Set ID   <i class="icon ion-ios7-trash"></i></button>
+
+                
+              </div>
+ -->
+      </div>
+ <!-- <a href="#/history/{{tripList.indexOf(trip)}}" ng-repeat='trip in tripList'> -->
+ <!-- <a  ng-repeat='trip in tripList' href="#/history/{{}}"> -->
+
+           <div class="row" >
+
+
+                  <div class="col col-80"><i class="icon ion-model-s"></i>       
+                      {{tripList[tripId].id}}th   {{tripList[tripId].startPoint}} <i class="icon ion-arrow-right-c"></i> {{tripList[tripId].endPoint}} </div>
+             
+
+
+                <div class="col">{{tripList[tripId].endMeter-tripList[tripId].startMeter}}KM
+                </div>
+
+                <div class="col"> {{(tripList[tripId].endMeter-tripList[tripId].startMeter)*tripList[tripId].unitPrice|currency}}
+                </div>
+               <!--  <div class="col"> {{tripList[tripId]}}
+                </div> -->
+           </div>
+  <!-- </a> -->
+ <!--  <a   href="#/history/2">
+    test router
+  </a> -->
+       
+    </form>
+  </ion-content>
+</ion-view>
+<div class="bar bar-footer ">
+         <!--  <button class="button icon ion-navicon"></button>
+          <h1 class="title">Header Buttons</h1>
+          <button class="button">Edit</button> -->
+           <div class="tabs tabs-icon-left">
+         <a href="#/history" class="tab-item">
+            <i class="icon ion-reply"></i>
+            Back
+          </a>
+          <a href="#/genreport" class="tab-item">
+            <i class="icon ion-ios7-compose"></i>
+            Report
+          </a>
+          <a href="#/setCar" class="tab-item">
+            <i class="icon ion-gear-a"></i>
+            Settings
+          </a>
+      </div>
+
+
+
+</div>

@@ -1,0 +1,87 @@
+ <div class="bar bar-header bar-dark" >
+          <!-- <button class="button icon ion-navicon"></button> -->
+          <h1 class="title"><i class="icon ion-model-s"></i>           Mileage Mate</h1>
+          <!-- <button class="button">Edit</button> -->
+</div>
+<ion-view>
+  
+  <ion-content  has-tabs="true" padding="true">
+
+  
+    <form >
+     
+
+      <div class="list">
+      
+        <label class="item item-input item-stacked-label">
+          <span class="input-label"><i class="icon ion-android-send"></i>Start Point</span>
+        <!-- <input type="text" placeholder="Visiting clients" ng-model="newTrip.startPoint"> -->
+
+          <input type="text" name="search"  id="search" placeholder="Type location" list="searchresults" autocomplete="on" ng-model="newTrip.startPoint" required>
+
+            <datalist  id="searchresults">
+                <option ng-repeat='trip in tripList'>{{trip.startPoint}}</option>
+              
+           </datalist>
+        </label>
+
+     
+        <label class="item item-input item-stacked-label">
+          <span class="input-label"><i class="icon ion-ios7-speedometer"></i>  Start meter</span>
+          <input type="number" placeholder="Visiting clients" min="0" max="10000" ng-model="newTrip.startMeter" required>
+
+        </label>
+         
+
+        <input type="checkbox" ng-model='notDone' ng-click='saveNotDoneTrip()'> Save , and leave
+
+
+          <div class="button-bar">
+                    <button ng-model='button' ng-disabled='notDone' class="button button-block button-dark" type="submit" ng-click='saveNewTrip()'>
+                    <i class="icon ion-android-folder"></i>    Save this page          </button>
+
+                <a  href="#/endPoint">
+                    <button class="button button-block button-dark" type="submit" >
+                  <i class="icon ion-chevron-right"></i></button>
+
+                </a>
+           </div>
+
+           <div>
+             <li ng-repeat='test in testList'>
+               {{test.startPoint}} {{test.startMeter}}
+
+<button type="submit" ng-click='deleteDb(test)'>Delete</button>
+
+             </li>
+
+
+           </div>
+
+
+      </div>
+   
+    </form>  
+  </ion-content>r
+</ion-view>
+ <!-- <div class="bar bar-footer "> -->
+   <div class="tabs-striped tabs-footer tabs-background-dark tabs-light">
+
+           <div class="tabs tabs-icon-left">
+          <a class="tab-item">
+            <i class="icon ion-coffee"></i>
+            Exit
+          </a>
+          <a href="#/history" class="tab-item">
+            <i class="icon ion-star"></i>
+            History
+          </a>
+          <a href="#/setCar" class="tab-item">
+            <i class="icon ion-gear-a"></i>
+            Settings
+          </a>
+      </div>
+
+
+
+</div>
