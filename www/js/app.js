@@ -438,9 +438,6 @@ cd
 
 })
 
- // .controller('DateController', ['$scope', function($scope) {
- //      $scope.value = new Date(2010, 11, 28, 14, 57);
- //    }])
 
 
 .service('TripService', function ($localStorage){
