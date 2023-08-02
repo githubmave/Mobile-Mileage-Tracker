@@ -45,11 +45,11 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 
 
  
-####•	A Controller and a view is One-to-One mapping. 
+####• A Controller and a view is One-to-One mapping. 
 
-####•	The Rat provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
+####•The Rat provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
  
-####    For example:
+####  For example:
 
 
 
