@@ -18,7 +18,7 @@ Then run:
 ```bash
 $ ionic start myProject tabs
 ```
-
+![Setting](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/cbb23ac7-6558-43c9-beb0-c3f371733f19)
 More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/getting-started) page and the [Ionic CLI](https://github.com/driftyco/ionic-cli) repo.
 
 ## Issues
