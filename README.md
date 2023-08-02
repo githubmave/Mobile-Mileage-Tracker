@@ -109,7 +109,7 @@ Petrol reading… data flow, and render the Html page—Views
 
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/f005de0e-d0dc-441c-a39b-fcf933af2a5f)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/57daa94a-7ec9-4a17-bab4-ff462855633d)
 
 
 
