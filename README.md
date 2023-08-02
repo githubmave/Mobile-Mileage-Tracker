@@ -8,7 +8,7 @@
 #### www/templates/endpoint.html
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/043b044f-2388-4ae4-9917-c97963fcaa1b)
 
-#### •	The total petrol cost for today’s trip
+#### The total petrol cost for today’s trip
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8f24ec43-44ad-42e9-98db-5fcf3d99cf7d)
 
 #### Given start and end location , the App help claiming petrol costs for business trips by calculating the petrol prices.
