@@ -30,13 +30,15 @@
 
 ##  Project Tree
 
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/b73094a3-01ef-42f6-bc7e-0ffd9c907f49)
 
 
 
 ## Rat Modules is as below:
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/6534d4ac-8f31-4a4a-b3d7-1ba81e2ad13d)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/292d9c33-2e32-4484-8756-4df81a0b068f)
+
 
 
 
@@ -44,7 +46,7 @@
 ## Solution Architect
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/3bbf3ed0-cea9-458e-a98d-6a5f8aa78ea8)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/15aedf82-d68a-4f5c-b70a-0ab93c8bb4fa)
 
 
 
@@ -69,7 +71,7 @@
 #### www/js/app.js: 
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/418536ad-d8a7-4291-b645-f969d0216a17)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/f75f19c0-7cd5-4d60-862f-7d37a285e98e)
 
 
 
@@ -89,7 +91,7 @@ Petrol reading… data flow, and render the Html page—Views
 #### www/template/startPoint.html
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/2c96d08c-4163-4cfa-80c8-5b900bfca944)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/3503e963-09fa-444d-886b-21894132b981)
 
 
 
@@ -104,7 +106,7 @@ Petrol reading… data flow, and render the Html page—Views
 
 #### •	The total petrol cost for today’s trip
 www/templates/ countCost.html
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/df40ec66-42d1-4f70-8738-f709e2b469ac)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/0b6b5f8c-e9c6-4f23-97a5-25815de3b70b)
 
 
 
@@ -121,7 +123,7 @@ www/templates/ countCost.html
 #### www/templates/history.html 
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/e9a0b199-5f74-41e2-9b1b-09b641a56ce3)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8d13dd80-9b98-42a9-941b-4dab0a49b3c0)
 
 
 
@@ -136,7 +138,7 @@ www/templates/ countCost.html
 
 #### www/js/app.js
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/61c83cc9-0929-4185-8622-322b54d12155)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/e8a032cc-5002-42a4-81f6-04eb5d6d6885)
 
 
 
