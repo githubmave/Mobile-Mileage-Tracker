@@ -116,6 +116,8 @@ Petrol reading… data flow, and render the Html page—Views
 
 #### •	The total petrol cost for today’s trip
 www/templates/ countCost.html
+
+
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/0b6b5f8c-e9c6-4f23-97a5-25815de3b70b)
 
 
