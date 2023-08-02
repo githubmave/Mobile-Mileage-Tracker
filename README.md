@@ -11,10 +11,7 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 	
 ### Prerequisite installation:
 
-•	  node.js                           —Back end
-•	. npm
-•	. angular dependencies –Web framework
-•	.ionic                                 -- UI
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/46b625fe-f9f4-4fcc-8286-2ef420a4d15e)
 
 
 ###  Project Tree
