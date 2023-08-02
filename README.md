@@ -45,9 +45,9 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 
 
  
-####• A Controller and a view is One-to-One mapping. 
+####   A Controller and a view is One-to-One mapping. 
 
-####•The Rat provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
+####  The Rat provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
  
 ####  For example:
 
@@ -64,10 +64,10 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 
 
 
-####•	. The above ‘startPointCtrl’ controller handle starting address, starting 
-Petrol reading… data flow, and render the Html page—####Views
+####	. The above ‘startPointCtrl’ controller handle starting address, starting 
+Petrol reading… data flow, and render the Html page—Views
  
-####•	.  App.js has several controllers to handle data and render html page,e.g: Trip_details.html
+####	.  App.js has several controllers to handle data and render html page,e.g: Trip_details.html
 
 
 
