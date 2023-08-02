@@ -35,3 +35,104 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 
 
 
+•	System was designed based on MVC Model-View-Controller Architect: 
+
+
+
+
+	### Controller
+
+
+ 
+####•	A Controller and a view is One-to-One mapping. 
+
+####•	The Rat provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
+ 
+        For example:
+
+
+
+
+
+#### www/js/app.js: 
+
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/418536ad-d8a7-4291-b645-f969d0216a17)
+
+
+
+
+
+####•	. The above ‘startPointCtrl’ controller handle starting address, starting 
+Petrol reading… data flow, and render the Html page—####Views
+ 
+####•	.  App.js has several controllers to handle data and render html page,e.g: Trip_details.html
+
+
+
+##      Views
+
+#### •	Controllers render html pages which are Views stored in :www/templates
+
+#### www/template/startPoint.html
+
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/2c96d08c-4163-4cfa-80c8-5b900bfca944)
+
+
+
+#### www/templates/endpoint.html
+
+
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/f005de0e-d0dc-441c-a39b-fcf933af2a5f)
+
+
+
+
+#### •	The total petrol cost for today’s trip
+www/templates/ countCost.html
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/df40ec66-42d1-4f70-8738-f709e2b469ac)
+
+
+
+
+
+#### •	The records list of Trips
+#### www/templates/history.html
+
+
+
+#### •	Controller can integrate with Model to update the records of trips
+
+
+#### www/templates/history.html 
+
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/e9a0b199-5f74-41e2-9b1b-09b641a56ce3)
+
+
+
+
+##      Model
+
+#### •	The Rat leverage Service to implement Model for mileage and trips data CRUD.
+
+
+
+
+
+#### www/js/app.js
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/61c83cc9-0929-4185-8622-322b54d12155)
+
+
+
+#### •	The above ‘TripService’ store data in localStorage. TripService can update and delete trips related data. 
+
+
+
+
+
+
+
