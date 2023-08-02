@@ -28,6 +28,8 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/6534d4ac-8f31-4a4a-b3d7-1ba81e2ad13d)
 
 
+
+
 ## Solution Architect
 
 
@@ -39,8 +41,7 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 
 
 
-
-	### Controller
+##  Controller
 
 
  
@@ -48,7 +49,7 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 
 ####•	The Rat provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
  
-        For example:
+####    For example:
 
 
 
