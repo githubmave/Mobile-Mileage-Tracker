@@ -256,12 +256,7 @@ angular.module('starter', ['ui.router.router','ionic','ngStorage'])
 
 .controller('historyCtrl', function($scope,$stateParams,$ionicPopup,$ionicListDelegate,TripService,tripDb) {
 
-              // $scope.$storage=$localStorage.$default({ newTrip:{},
-              //                                        tripList:[{}]
-
-                     
-
-              // });
+       
              $scope.newTrip={};
              $scope.online=false;
 
@@ -273,62 +268,13 @@ angular.module('starter', ['ui.router.router','ionic','ngStorage'])
             //******************************
               $scope.toggleOnline = function() {
               $scope.online = !$scope.online;
-              // if ($scope.online) {  // Read http://pouchdb.com/api.html#sync
-              //   $scope.sync = todoDb.sync('http://127.0.0.1:5984/todos', {live: true})
-              //     .on('error', function (err) {
-              //       console.log("Syncing stopped");
-              //       console.log(err);
-              //     });
-              // } else {
-              //   $scope.sync.cancel();
-              // }
+         
             };
 
              //***********************************************************
 
              $scope.setActive=function(trip){
                   trip.onshow=!trip.onshow;
-
-                     
-
-                      // var scope = $scope.$new(true);
-                      //  // var startP=trip.startPoint;
-                      //  // var endP=trip.endPoint;
-
-                      //  // var dataList=[];
-                      //   scope.data = { response: "Unit Price:"+trip.unitPrice
-                                                                              
-                      //                };
-
-
-                      //   $ionicPopup.prompt({
-                      //     title: ' More Details',
-                      //     scope: scope,
-                      //     buttons: [
-                      //       { text: 'Cancel',  onTap: function(e) { return false; } },
-                      //       {
-                      //         text: '<b>Save</b>',
-                      //         type: 'button-dark',
-                      //         onTap: function(e) {
-                      //           return scope.data.response;
-                      //         }
-                      //       },
-                      //     ]
-                      //   }).then(function (newStart) {
-                      //         // if (newStart && newStart != trip.startPoint) {
-                      //         //   trip.startPoint= newStart;
-
-                      //         //   // trip.endPoint=newList[1].endP;
-                      //         //   $scope.updateTrip(trip); 
-                      //         // }
-
-                      //         $ionicListDelegate.closeOptionButtons();
-
-                      //   });
-
-
-
-
 
 
              }
@@ -372,47 +318,15 @@ angular.module('starter', ['ui.router.router','ionic','ngStorage'])
 
              $scope.deleteTrip=function(trip){
 
-                  //  if($scope.$storage.tripList.length>1){
-
-                           //  for(i in $scope.tripList){
-
-                           //    if($scope.tripList[i].id==id){
-                           // //    $scope.$storage.tripList.splice(i,1);
-
-                           //          TripService.deleteTrip($scope.tripList[i].id);
-                           //    }
-
-                           //  }
+                
 
                 tripDb.get(trip._id, function (err, doc) {
                              tripDb.remove(doc, function (err, res) {});
                 });
             
             }
+cd
 
-
-              //***********************************************************
-
-             //  $scope.saveOldTrip=function(trip){
-
-             //        // for(i in $scope.tripList){
-                      
-             //        //       if($scope.tripList[i].id==trip.id){
-
-             //        //          $scope.newTrip=angular.copy(trip);
-
-             //        //          TripService.pushTrip($scope.newTrip);
-             //        //       }
-             //        // }
-
-
-
-             //          tripDb.post(angular.copy(trip),function(err,res){
-             //                  if(err) console.log(err);
-             //          });
-             // }
-            
-             //**********************************************************************
               $scope.updateTrip=function(trip){
                    tripDb.get(trip._id, function (err, doc) {
                       if (err) {
@@ -433,10 +347,7 @@ angular.module('starter', ['ui.router.router','ionic','ngStorage'])
 
                              
                        var scope = $scope.$new(true);
-                       // var startP=trip.startPoint;
-                       // var endP=trip.endPoint;
-
-                       // var dataList=[];
+                       
                         scope.data = { response: trip.startPoint};
 
                         dataList=scope.data.response;
@@ -611,18 +522,7 @@ angular.module('starter', ['ui.router.router','ionic','ngStorage'])
 
     this.pushTrip=function(trip){
 
-               // if($storage.tripList.length<20){
-                    
-               //       trip.id=$storage.uid++;
-               //       $storage.tripList.push(trip);
-               // }
-               // else{
-               //     $storage.tripList.splice(0,1);
-
-               //      trip.id=$storage.uid++;
-               //      $storage.tripList.push(trip);
-
-               // }
+              
 
                 if(tripDbList.length<20){
                     
