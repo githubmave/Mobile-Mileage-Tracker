@@ -1,11 +1,21 @@
-## Purpose of the Rat App
+## Purpose :    
+###  Calculate petrol cost for business trips
 
-Given starting and end location , Rat App can help claiming petrol costs for business trips by calculating the petrol prices.
+#### www/template/startPoint.html
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/74f8d075-30ef-48df-871a-9fa2c70c868f)
 
-####	. The Rat can store mileage in mobile when no Wi Fi, then synchronize 
-####   .  It to cloud-base CouchDB when has Wi Fi.
-####	. The Rat website was hosted on AWS EC2 server
-####	. The Rat mobile version was uploaded to Google Play store
+
+#### www/templates/endpoint.html
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/043b044f-2388-4ae4-9917-c97963fcaa1b)
+
+#### •	The total petrol cost for today’s trip
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8f24ec43-44ad-42e9-98db-5fcf3d99cf7d)
+
+#### Given start and end location , the App help claiming petrol costs for business trips by calculating the petrol prices.
+
+####	. Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
+####	. The Rat website was hosted on:              AWS EC2 server
+####	. The Rat mobile version was uploaded to:     Google Play store
 
 
 	
@@ -13,13 +23,14 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 ####	. node.js                           —Back end
 ####	. npm
 ####	. angular dependencies              –Web framework
-####	.ionic                                 
+####	.ionic   
+
 
 
 
 ##  Project Tree
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/e4ef8db4-ef10-4fe8-97a3-b2ce2936ae6b)
+
 
 
 ## Rat Modules is as below:
