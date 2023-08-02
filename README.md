@@ -10,9 +10,9 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 
 	
 ## Prerequisite installation:
-#####	  node.js                           —Back end
+#####	. node.js                           —Back end
 #####	. npm
-#####	. angular dependencies –Web framework
+#####	. angular dependencies              –Web framework
 #####	.ionic                                 
 
 
