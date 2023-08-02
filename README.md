@@ -34,10 +34,13 @@
 
 
 
-## Rat Modules is as below:
+## Mileage Modules is as below:
 
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/292d9c33-2e32-4484-8756-4df81a0b068f)
+
+
+
 
 
 
@@ -50,7 +53,11 @@
 
 
 
-•	System was designed based on MVC Model-View-Controller Architect: 
+### •	System was designed based on MVC Model-View-Controller Architect: 
+
+
+
+
 
 
 
@@ -81,6 +88,9 @@
 Petrol reading… data flow, and render the Html page—Views
  
 ####	.  App.js has several controllers to handle data and render html page,e.g: Trip_details.html
+
+
+
 
 
 
@@ -124,6 +134,10 @@ www/templates/ countCost.html
 
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8d13dd80-9b98-42a9-941b-4dab0a49b3c0)
+
+
+
+
 
 
 
