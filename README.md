@@ -20,3 +20,18 @@ Given starting and end location , Rat App can help claiming petrol costs for bus
 ##  Project Tree
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/e4ef8db4-ef10-4fe8-97a3-b2ce2936ae6b)
+
+
+## Rat Modules is as below:
+
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/6534d4ac-8f31-4a4a-b3d7-1ba81e2ad13d)
+
+
+## Solution Architect
+
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/3bbf3ed0-cea9-458e-a98d-6a5f8aa78ea8)
+
+
+
