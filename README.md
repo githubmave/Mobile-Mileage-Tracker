@@ -2,7 +2,7 @@
 
 Given starting and end location , Rat App can help claiming petrol costs for business trips by calculating the petrol prices.
 
-•#####	. The Rat can store mileage in mobile when no Wi Fi, then synchronize 
+#####	. The Rat can store mileage in mobile when no Wi Fi, then synchronize 
    It to cloud-base CouchDB when has Wi Fi.
 #####	. The Rat website was hosted on AWS EC2 server
 #####	. The Rat mobile version was uploaded to Google Play store
