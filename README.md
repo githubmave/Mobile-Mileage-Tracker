@@ -90,9 +90,8 @@
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Controller:         www/js/app.js
 
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step three: 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use pouchDB API to save meter reading to cloud-based couchDB when have internet connection
-   
+  ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/b04edb23-4ce8-4880-aff1-f740d1a9f6db)
+ 
    
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Controller and a view is One-to-One mapping. 
@@ -106,15 +105,6 @@
 
 
 
-#### www/js/app.js: 
-
-
-
-
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/efed8999-57be-4488-b5f8-6ea5b6b52d39)
-
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step three: 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use pouchDB API to save meter reading to cloud-based couchDB when have internet connection
 
 
 
