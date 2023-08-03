@@ -11,6 +11,13 @@
 #### The total petrol cost for today’s trip
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8f24ec43-44ad-42e9-98db-5fcf3d99cf7d)
 
+
+#### •	The records list of Trips
+#### www/templates/history.html
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/b0945d56-e1e9-43b8-a3fc-4856c600013a)
+
+
 #### Given start and end location , the App help claiming petrol costs for business trips by calculating the petrol prices.
 
 ####	. Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
