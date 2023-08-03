@@ -27,10 +27,10 @@
 
 	
 ## Prerequisite installation:
-####	. node.js                           —Back end
-####	. npm
-####	. angular dependencies              –Web framework
-####	.ionic   
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . node.js                           —Back end
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . npm
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . angular dependencies              –Web framework
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .ionic   
 
 
 
