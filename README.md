@@ -1,5 +1,5 @@
 ## Purpose :     
-###  Calculate petrol cost for business trips
+###  Calculate petrol cost of business trips, for accounting claim. 
 
 #### www/template/startPoint.html
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/74f8d075-30ef-48df-871a-9fa2c70c868f)
@@ -56,7 +56,7 @@
 ## Solution Architect
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/15aedf82-d68a-4f5c-b70a-0ab93c8bb4fa)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/ee1cbdec-3c3b-4839-81b4-78405e0d4fcc)
 
 
 
