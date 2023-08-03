@@ -62,13 +62,14 @@
 
 
 ## Solution Architect
+### • &nbsp;&nbsp;&nbsp;&nbspSystem based on MVC Model-View-Controller Architect: 
 
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/40f32628-2309-45bb-8fc0-814dbdb9c99f)
 
 
 
-### •	System based on MVC Model-View-Controller Architect: 
+
 
 
 
