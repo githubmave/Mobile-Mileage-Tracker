@@ -73,17 +73,17 @@
 
 
 
+##  Use Case to illustrates End-to-End Data Flow
 
 
 
 
-##  Use Case illustrates End-to-End 
 
 
  
 ####   A Controller and a view is One-to-One mapping. 
 
-####  The Rat provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
+####  The App provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
  
 ####  For example:
 
