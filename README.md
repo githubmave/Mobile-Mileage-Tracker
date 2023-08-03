@@ -23,7 +23,7 @@
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/eab29c43-3b46-496d-9d2d-293303d7ee77)
 
 
-#### Given start and end location , the App calculates petrol cost, records business trips,  updata the trips
+### Given start and end location , the App calculates petrol cost, records business trips,  updata the trips
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . The App website was hosted on:              AWS EC2 server
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . The App mobile version was uploaded to:     Google Play store
@@ -73,12 +73,21 @@
 
 
 
-##  Use Case to illustrates End-to-End Data Flow
+##  Use case to illustrates Data Flow from Front end_To_Back end_to DB 
+
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Users enter and submit meter reading
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step one: 
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Views:     www/template/startPoint.html
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/6ec4c053-f6bb-4654-8304-6dfc0939cf00)
 
 
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step Two:
 
 
-
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Controller:         www/js/app.js
 
  
 ####   A Controller and a view is One-to-One mapping. 
@@ -97,61 +106,10 @@
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/f75f19c0-7cd5-4d60-862f-7d37a285e98e)
 
 
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/efed8999-57be-4488-b5f8-6ea5b6b52d39)
 
-
-
-####	. The above ‘startPointCtrl’ controller handle starting address, starting 
-Petrol reading… data flow, and render the Html page—Views
- 
-####	.  App.js has several controllers to handle data and render html page,e.g: Trip_details.html
-
-
-
-
-
-
-##      Views
-
-#### •	Controllers render html pages which are Views stored in :www/templates
-
-#### www/template/startPoint.html
-
-
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/3503e963-09fa-444d-886b-21894132b981)
-
-
-
-#### www/templates/endpoint.html
-
-
-
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/57daa94a-7ec9-4a17-bab4-ff462855633d)
-
-
-
-
-#### •	The total petrol cost for today’s trip
-www/templates/ countCost.html
-
-
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/0b6b5f8c-e9c6-4f23-97a5-25815de3b70b)
-
-
-
-
-
-#### •	The records list of Trips
-#### www/templates/history.html
-
-
-
-#### •	Controller can integrate with Model to update the records of trips
-
-
-#### www/templates/history.html 
-
-
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8d13dd80-9b98-42a9-941b-4dab0a49b3c0)
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step three: 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use pouchDB API to save meter reading to cloud-based couchDB when have internet connection
 
 
 
@@ -160,21 +118,16 @@ www/templates/ countCost.html
 
 
 
-##      Model
-
-#### •	The Rat leverage Service to implement Model for mileage and trips data CRUD.
 
 
 
 
 
-#### www/js/app.js
-
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/e8a032cc-5002-42a4-81f6-04eb5d6d6885)
 
 
 
-#### •	The above ‘TripService’ store data in localStorage. TripService can update and delete trips related data. 
+
+
 
 
 
