@@ -81,7 +81,7 @@
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Views:     www/template/startPoint.html
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/6ec4c053-f6bb-4654-8304-6dfc0939cf00)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/1e26887f-2ded-4ce0-992c-0497bfc3f745)
 
 
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step Two:
