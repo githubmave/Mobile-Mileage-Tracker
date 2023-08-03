@@ -15,8 +15,8 @@
 #### •	The records list of Trips
 #### www/templates/history.html
 
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/462aba35-9efa-4b0c-ad4d-12f841f96eb4)
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/b0945d56-e1e9-43b8-a3fc-4856c600013a)
 
 
 #### Given start and end location , the App help claiming petrol costs for business trips by calculating the petrol prices.
