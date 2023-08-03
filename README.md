@@ -39,9 +39,13 @@
 
 
 
-##  Project Tree
+##  Main Packages
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . UI:        ionic-- Mobile Native
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Front end: angular,  angular-ui-router
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Back end:  ngStorage
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Data storage: pouchDB API for saving dato into couchDB via HTTP
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Tools:  Use Cordova Build for Mobile App, Use bower for package management 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/b73094a3-01ef-42f6-bc7e-0ffd9c907f49)
 
 
 
