@@ -23,7 +23,7 @@
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/eab29c43-3b46-496d-9d2d-293303d7ee77)
 
 
-#### Given start and end location , the App help claiming petrol costs for business trips by calculating the petrol prices.
+#### Given start and end location , the App calculates petrol cost, records business trips,  updata the trips
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . The Rat website was hosted on:              AWS EC2 server
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . The Rat mobile version was uploaded to:     Google Play store
