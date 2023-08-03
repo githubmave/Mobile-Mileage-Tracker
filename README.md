@@ -21,9 +21,9 @@
 
 #### Given start and end location , the App help claiming petrol costs for business trips by calculating the petrol prices.
 
-####	. Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
-####	. The Rat website was hosted on:              AWS EC2 server
-####	. The Rat mobile version was uploaded to:     Google Play store
+	####	. Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
+	####	. The Rat website was hosted on:              AWS EC2 server
+	####	. The Rat mobile version was uploaded to:     Google Play store
 
 
 	
