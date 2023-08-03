@@ -89,12 +89,18 @@
 
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Controller:         www/js/app.js
 
- 
-####   A Controller and a view is One-to-One mapping. 
 
-####  The App provisions controller in www/js/app.js  to handle mileage , trips data in front end html pages. 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step three: 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use pouchDB API to save meter reading to cloud-based couchDB when have internet connection
+   
+   
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Controller and a view is One-to-One mapping. 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www/js/app.js
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/fddd050a-cbd9-4792-8d04-afb0f258ef1d)
+
  
-####  For example:
+
 
 
 
