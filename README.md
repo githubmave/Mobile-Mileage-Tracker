@@ -15,6 +15,7 @@
 #### •	The records list of Trips
 #### www/templates/history.html
 
+
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/b0945d56-e1e9-43b8-a3fc-4856c600013a)
 
 
