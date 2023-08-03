@@ -65,7 +65,7 @@
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on MVC Model-View-Controller Architect: 
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/40f32628-2309-45bb-8fc0-814dbdb9c99f)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/82a4d82d-c6d7-4b93-9c9f-36bf9cada1ff)
 
 
 
