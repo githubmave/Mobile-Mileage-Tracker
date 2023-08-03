@@ -103,7 +103,6 @@
 #### www/js/app.js: 
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/f75f19c0-7cd5-4d60-862f-7d37a285e98e)
 
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/efed8999-57be-4488-b5f8-6ea5b6b52d39)
