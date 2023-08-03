@@ -1,4 +1,4 @@
-## Purpose :    
+## Purpose :     
 ###  Calculate petrol cost for business trips
 
 #### www/template/startPoint.html
