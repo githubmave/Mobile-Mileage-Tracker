@@ -41,7 +41,7 @@
 
 
 
-## Mileage Modules is as below:
+## Mileage Modules: :
 
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/292d9c33-2e32-4484-8756-4df81a0b068f)
@@ -60,7 +60,7 @@
 
 
 
-### •	System was designed based on MVC Model-View-Controller Architect: 
+### •	System based on MVC Model-View-Controller Architect: 
 
 
 
