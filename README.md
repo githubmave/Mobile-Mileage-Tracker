@@ -56,7 +56,7 @@
 ## Solution Architect
 
 
-![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/ee1cbdec-3c3b-4839-81b4-78405e0d4fcc)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/40f32628-2309-45bb-8fc0-814dbdb9c99f)
 
 
 
