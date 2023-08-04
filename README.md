@@ -73,7 +73,7 @@
 
 
 
-##  Use case to illustrates Data Flow from Front end To -> Back end To -> DB 
+##  Use  Meter Data  to illustrates Data Flow from Front end To -> Back end To -> DB 
 
 * ######  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Users enter and submit meter reading
 
