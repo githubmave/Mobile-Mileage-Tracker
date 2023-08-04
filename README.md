@@ -1,41 +1,41 @@
 ## Purpose :   
 * This ReadMe file include A) Solution Architect Map , B) Data Flow Use Case Diagram
-* #####  Calculate petrol cost of business trips, for accounting claim. 
+*   Calculate petrol cost of business trips, for accounting claim. 
 
-* ##### www/template/startPoint.html
+*  www/template/startPoint.html
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/74f8d075-30ef-48df-871a-9fa2c70c868f)
 
 
-* ##### www/templates/endpoint.html
+*  www/templates/endpoint.html
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/043b044f-2388-4ae4-9917-c97963fcaa1b)
 
-* ##### The total petrol cost for today’s trip
+*  The total petrol cost for today’s trip
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8f24ec43-44ad-42e9-98db-5fcf3d99cf7d)
 
 
-* ##### •	The records list of Trips
-* ##### www/templates/history.html
+*  	The records list of Trips
+*  www/templates/history.html
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/462aba35-9efa-4b0c-ad4d-12f841f96eb4)
 
 
-* #####  Users can edit and delete of trips
+*   Users can edit and delete of trips
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/eab29c43-3b46-496d-9d2d-293303d7ee77)
 
 
 ### Given start and end location , the App calculates petrol cost, records business trips,  updata the trips
-* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
-* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     The App website was hosted on:              AWS EC2 server
-* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    The App mobile version was uploaded to:     Google Play store
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     The App website was hosted on:              AWS EC2 server
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    The App mobile version was uploaded to:     Google Play store
 
 
 	
 ## Prerequisite installation:
-* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  node.js                          
-* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  npm
-* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  angular dependencies            
-* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ionic   
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  node.js                          
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  npm
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  angular dependencies            
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ionic   
 
 
 
