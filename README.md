@@ -83,7 +83,7 @@
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/1e26887f-2ded-4ce0-992c-0497bfc3f745)
 
-
+ 
 * ####  &nbsp;&nbsp;&nbsp;&nbsp; Step Two:
 
 
