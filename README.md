@@ -1,5 +1,5 @@
 ## Purpose :   
-* This ReadMe file include A) Solution Architect Map , B) Data Flow Use Case Diagram
+* This ReadMe file include:     A) Solution Architect Map , B) Data Flow Use Case Diagram
 *   Calculate petrol cost of business trips, for accounting claim. 
 
 *  ##### www/template/startPoint.html
