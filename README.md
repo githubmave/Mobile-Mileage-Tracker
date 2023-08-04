@@ -12,9 +12,8 @@
 *  The total petrol cost for today’s trip
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8f24ec43-44ad-42e9-98db-5fcf3d99cf7d)
 
-
-*  	The records list of Trips
-*  www/templates/history.html
+	
+* records : www/templates/history.html
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/462aba35-9efa-4b0c-ad4d-12f841f96eb4)
 
