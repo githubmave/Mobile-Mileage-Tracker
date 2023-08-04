@@ -77,14 +77,14 @@
 
 * ######  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Users enter and submit meter reading
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; Step one: 
+#### Step one: 
 
 * ###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Views:     www/template/startPoint.html
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/1e26887f-2ded-4ce0-992c-0497bfc3f745)
 
  
-####  &nbsp;&nbsp;&nbsp;&nbsp; Step Two:
+####   Step Two:
 
 
 * ######  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Controller:         www/js/app.js
@@ -94,7 +94,7 @@
  
    
 
-* ## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Controller and a view is One-to-One mapping. 
+* ## A Controller and a view is One-to-One mapping. 
 * ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www/js/app.js
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/c44798a8-c976-4fce-b997-1a65002faa76)
 
