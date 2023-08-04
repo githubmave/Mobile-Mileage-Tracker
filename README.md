@@ -2,18 +2,18 @@
 * This ReadMe file include A) Solution Architect Map , B) Data Flow Use Case Diagram
 *   Calculate petrol cost of business trips, for accounting claim. 
 
-*  www/template/startPoint.html
+*  # www/template/startPoint.html
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/74f8d075-30ef-48df-871a-9fa2c70c868f)
 
 
-*  www/templates/endpoint.html
+*  # www/templates/endpoint.html
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/043b044f-2388-4ae4-9917-c97963fcaa1b)
 
-*  The total petrol cost for today’s trip
+*  # The total petrol cost for today’s trip
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8f24ec43-44ad-42e9-98db-5fcf3d99cf7d)
 
 	
-* records : www/templates/history.html
+* # records : www/templates/history.html
 
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/462aba35-9efa-4b0c-ad4d-12f841f96eb4)
 
