@@ -44,7 +44,7 @@
 * ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Front end: &nbsp;&nbsp;&nbsp;&nbsp;     angular,  angular-ui-router
 * ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Back end: &nbsp;&nbsp;&nbsp;&nbsp;      ngStorage
 * ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Data storage:  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   pouchDB API for saving dato into couchDB via HTTP
-* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tools: &nbsp;&nbsp;&nbsp;&nbsp;   Cordova Build for Mobile App, Use bower for package management 
+* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tools: &nbsp;&nbsp;&nbsp;&nbsp;   Cordova Build ,  bower 
 
 
 
@@ -73,7 +73,7 @@
 
 
 
-##  Use case to illustrates Data Flow from Front end_To_Back end_to DB 
+##  Use case to illustrates Data Flow from Front end To -> Back end To -> DB 
 
 * ######  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Users enter and submit meter reading
 
