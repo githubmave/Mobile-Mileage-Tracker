@@ -94,7 +94,7 @@
  
    
 
-* ## A Controller and a view is One-to-One mapping. 
+ ## A Controller and a view is One-to-One mapping. 
 * ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www/js/app.js
 ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/c44798a8-c976-4fce-b997-1a65002faa76)
 
