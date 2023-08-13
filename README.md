@@ -66,7 +66,7 @@
 
 
 
-## Solution Architect
+## Solution Architecture
 * ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on MVC Model-View-Controller Architect: 
 
 
